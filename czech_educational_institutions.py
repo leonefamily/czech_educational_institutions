@@ -439,7 +439,7 @@ def parse_args(
         args_list = sys.argv[1:]
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '-s', '--uni-shp-save-path', required=True,
+        '-u', '--uni-shp-save-path', required=True,
         help='Where to save geolocalized universities table'
     )
     parser.add_argument(
